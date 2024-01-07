@@ -1,0 +1,28 @@
+Ignore les fichiers de configuration spécifiques à l'environnement
+/config/*.env
+
+Ignore les fichiers de logs
+/var/log/
+/logs/
+!/.gitkeep
+
+Ignore les fichiers de caches
+/var/cache/
+/cache/
+
+
+Ignore les fichiers de sessions
+/var/sessions/
+/sessions/
+!/.gitkeep
+
+Ignore les fichiers de dépendances Composer
+/vendor/
+
+Ignore les fichiers de sauvegarde
+*.bak
+*.swp
+
+Ignore les fichiers d'IDE (exemples : PhpStorm, Visual Studio Code)
+/.idea/
+/.vscode/

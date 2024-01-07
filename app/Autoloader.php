@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * Class Autoloader
+ *
+ * The Autoloader class is responsible for registering and loading classes
+ * using the PHP autoloading mechanism.
+ */
+
 namespace App;
 class Autoloader{ //test git
     static function register(){

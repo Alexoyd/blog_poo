@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * Class App
+ *
+ * The main class for the application.
+ */
+
 namespace App;
 class App{
     const DB_NAME = "blog";
